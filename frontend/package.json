@@ -2,7 +2,26 @@
   "name": "learnpilot-frontend",
   "version": "0.1.0",
   "type": "module",
-  "scripts": { "dev": "vite", "build": "tsc -b && vite build", "lint": "eslint src --max-warnings=0" },
-  "dependencies": { "@vitejs/plugin-react": "latest", "vite": "latest", "typescript": "latest", "react": "latest", "react-dom": "latest", "lucide-react": "latest", "react-markdown": "latest", "remark-gfm": "latest", "framer-motion": "latest" },
-  "devDependencies": { "@types/react": "latest", "@types/react-dom": "latest", "eslint": "latest", "typescript-eslint": "latest" }
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "lint": "eslint src --max-warnings=0"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "latest",
+    "framer-motion": "^14.1.0",
+    "lucide-react": "^1.55.0",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0",
+    "react-markdown": "latest",
+    "remark-gfm": "latest",
+    "typescript": "latest",
+    "vite": "latest"
+  },
+  "devDependencies": {
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "eslint": "latest",
+    "typescript-eslint": "latest"
+  }
 }
