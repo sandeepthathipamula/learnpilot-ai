@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: #F8FAFC;
+  color: #0F172A;
+  font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #CBD5E1;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #94A3B8;
+}
+
+/* Markdown prose rendering */
+.prose h1, .prose h2, .prose h3, .prose h4 {
+  color: #0F172A;
+  font-weight: 700;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+}
+.prose p {
+  margin-top: 0.35rem;
+  margin-bottom: 0.5rem;
+  line-height: 1.6;
+}
+.prose ul, .prose ol {
+  padding-left: 1.25rem;
+  margin-top: 0.25rem;
+  margin-bottom: 0.5rem;
+}
+.prose li {
+  margin-bottom: 0.25rem;
+}
+.prose pre {
+  background-color: #0F172A;
+  color: #F8FAFC;
+  padding: 0.75rem 1rem;
+  border-radius: 0.5rem;
+  overflow-x: auto;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.75rem;
+  margin: 0.5rem 0;
+}
+.prose code {
+  background-color: #EEF2FF;
+  color: #4338CA;
+  padding: 0.15rem 0.35rem;
+  border-radius: 0.25rem;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.8em;
+}
+.prose pre code {
+  background-color: transparent;
+  color: inherit;
+  padding: 0;
+}
+.prose table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.8rem;
+  margin: 0.75rem 0;
+}
+.prose th, .prose td {
+  border: 1px solid #E2E8F0;
+  padding: 0.4rem 0.6rem;
+  text-align: left;
+}
+.prose th {
+  background-color: #F1F5F9;
+  font-weight: 600;
+}
